@@ -1,1 +1,86 @@
 /* ini css external */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(../assets/fuji.jpg);
+    background-size: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 1px;
+    transition: 0.3s;
+}
+
+nav>a:hover {
+    background-color: black;
+    color: white;
+}
+
+.main-contain {
+    display: flex;
+    gap: 24px;
+}
+
+main header h1, main header h4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-container {
+    border: 1px solid black;
+    height: 400px;
+    flex: 1;
+}
+
+.main-container p {
+    text-align: center;
+}
+
+#our-packages-section header {
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+#call-us-section header {
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
